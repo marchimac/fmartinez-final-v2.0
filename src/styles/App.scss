@@ -1,0 +1,37 @@
+.color {
+  color: #f29f42;
+}
+
+.bg {
+  background-color: #ffc855;
+}
+
+.bg2 {
+  background-color: #f29f42;
+}
+
+.card {
+  width: calc(100% - 30px);
+  margin: 15px;
+
+  &-title {
+    margin: 5%;
+  }
+
+  &-link {
+    margin: 5%;
+  }
+
+}
+
+.recipes {
+  margin-bottom: 0px;
+}
+
+.mealsLink {
+  margin-top: 0px;
+}
+
+hr {
+  border-top: 10px solid black;
+}

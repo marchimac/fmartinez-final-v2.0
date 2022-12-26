@@ -1,0 +1,27 @@
+$corporativo: #f29f42;
+$hover: #4c00ff;
+$activo: rgb(235, 0, 0);
+
+.link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 20px;
+
+    &:hover {
+        color: $hover;
+    }
+
+}
+
+.active {
+    color: $activo;
+}
+
+.contenedor__navbar {
+    background-color: $corporativo !important;
+}
+
+span {
+    cursor: default;
+}
