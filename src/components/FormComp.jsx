@@ -138,19 +138,19 @@ function FormComp() {
         </Form.Group>
 
         <Form.Group className="mb-3 d-flex justify-content-around" controlId="ligera">
-          <Form.Check type="radio" name='level' id='ligera' label="Ligera (1 o 2 días por semana)" value='perder' />
+          <Form.Check type="radio" name='level' id='ligera' label="Ligera (1 o 2 días por semana)" value='ligera' />
         </Form.Group>
 
         <Form.Group className="mb-3 d-flex justify-content-around" controlId="moderada">
-          <Form.Check type="radio" name='level' id='moderada' label="Moderada (Entre 3 y 5 días por semana)" value='ganar' />
+          <Form.Check type="radio" name='level' id='moderada' label="Moderada (Entre 3 y 5 días por semana)" value='moderada' />
         </Form.Group>
 
         <Form.Group className="mb-3 d-flex justify-content-around" controlId="intensa">
-          <Form.Check type="radio" name='level' id='intensa' label="Intensa (6 o 7 días por semana)" value='perder' />
+          <Form.Check type="radio" name='level' id='intensa' label="Intensa (6 o 7 días por semana)" value='intensa' />
         </Form.Group>
 
         <Form.Group className="mb-3 d-flex justify-content-around" controlId="muy-intensa">
-          <Form.Check type="radio" name='level' id='muy-intensa' label="Muy intensa (2 veces al día)" value='ganar' />
+          <Form.Check type="radio" name='level' id='muy-intensa' label="Muy intensa (2 veces al día)" value='muy-intensa' />
         </Form.Group>
       </FormGroup>
 
